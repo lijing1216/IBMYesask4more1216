@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-09 20:32:14
+# 创建时间：2023-08-09 21:56:08
 # 使用模版：V2RaySE 默认模版
-# 节点数量：16
+# 节点数量：8
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,14 +21,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"新加坡sg1|cf|奈飞","type":"vmess","server":"cf.1216.site","port":443,"cipher":"none","uuid":"bfe40431-05e8-457a-f9c8-b6a873544298","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sgcf1.1216.site"}}}
-  - {"name":"新加坡sg2|cf|奈飞","type":"vmess","server":"cf.1216.site","port":443,"cipher":"none","uuid":"cd3bdc4e-cccd-4285-b482-b63e35f1e62d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sgcf2.1216.site"}}}
-  - {"name":"新加坡sg3|cf|奈飞","type":"vmess","server":"cf.1216.site","port":443,"cipher":"none","uuid":"62a4e1dc-8168-43b1-adb4-a2695ece2c7b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sgcf3.1216.site"}}}
-  - {"name":"新加坡sg4|cf|奈飞","type":"vmess","server":"cf.1216.site","port":443,"cipher":"none","uuid":"b97db5a3-1484-4fe6-d5d2-e91d372cd7d1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sgcf4.1216.site"}}}
-  - {"name":"韩国kr1|cf","type":"vmess","server":"cf.1216.site","port":443,"cipher":"none","uuid":"1399bf46-34f9-4e0d-a5d2-2c2694751430","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"krcf1.1216.site"}}}
-  - {"name":"韩国kr2|cf","type":"vmess","server":"cf.1216.site","port":443,"cipher":"none","uuid":"c96354bc-ca28-48ab-e141-9c07a90183d4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"krcf2.1216.site"}}}
-  - {"name":"韩国kr3|cf","type":"vmess","server":"cf.1216.site","port":443,"cipher":"none","uuid":"7a11515a-ad3a-4520-81da-83227f77054c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"krcf3.1216.site"}}}
-  - {"name":"韩国kr4|cf","type":"vmess","server":"cf.1216.site","port":443,"cipher":"none","uuid":"47a8d337-265a-4fb8-aead-36fc88476222","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"krcf4.1216.site"}}}
   - {"name":"新加坡sg1|cft|奈飞","type":"vmess","server":"cft.1216.site","port":443,"cipher":"none","uuid":"bfe40431-05e8-457a-f9c8-b6a873544298","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d22v83ijixwepg.cloudfront.net"}}}
   - {"name":"新加坡sg2|cft|奈飞","type":"vmess","server":"cft.1216.site","port":443,"cipher":"none","uuid":"cd3bdc4e-cccd-4285-b482-b63e35f1e62d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"djkei7hz363cq.cloudfront.net"}}}
   - {"name":"新加坡sg3|cft|奈飞","type":"vmess","server":"cft.1216.site","port":443,"cipher":"none","uuid":"62a4e1dc-8168-43b1-adb4-a2695ece2c7b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dhr6gsy8idwxj.cloudfront.net"}}}
@@ -43,14 +35,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 新加坡sg1|cf|奈飞
-      - 新加坡sg2|cf|奈飞
-      - 新加坡sg3|cf|奈飞
-      - 新加坡sg4|cf|奈飞
-      - 韩国kr1|cf
-      - 韩国kr2|cf
-      - 韩国kr3|cf
-      - 韩国kr4|cf
       - 新加坡sg1|cft|奈飞
       - 新加坡sg2|cft|奈飞
       - 新加坡sg3|cft|奈飞
@@ -65,14 +49,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡sg1|cf|奈飞
-      - 新加坡sg2|cf|奈飞
-      - 新加坡sg3|cf|奈飞
-      - 新加坡sg4|cf|奈飞
-      - 韩国kr1|cf
-      - 韩国kr2|cf
-      - 韩国kr3|cf
-      - 韩国kr4|cf
       - 新加坡sg1|cft|奈飞
       - 新加坡sg2|cft|奈飞
       - 新加坡sg3|cft|奈飞
@@ -87,14 +63,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡sg1|cf|奈飞
-      - 新加坡sg2|cf|奈飞
-      - 新加坡sg3|cf|奈飞
-      - 新加坡sg4|cf|奈飞
-      - 韩国kr1|cf
-      - 韩国kr2|cf
-      - 韩国kr3|cf
-      - 韩国kr4|cf
       - 新加坡sg1|cft|奈飞
       - 新加坡sg2|cft|奈飞
       - 新加坡sg3|cft|奈飞
@@ -108,14 +76,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡sg1|cf|奈飞
-      - 新加坡sg2|cf|奈飞
-      - 新加坡sg3|cf|奈飞
-      - 新加坡sg4|cf|奈飞
-      - 韩国kr1|cf
-      - 韩国kr2|cf
-      - 韩国kr3|cf
-      - 韩国kr4|cf
       - 新加坡sg1|cft|奈飞
       - 新加坡sg2|cft|奈飞
       - 新加坡sg3|cft|奈飞
@@ -129,14 +89,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 新加坡sg1|cf|奈飞
-      - 新加坡sg2|cf|奈飞
-      - 新加坡sg3|cf|奈飞
-      - 新加坡sg4|cf|奈飞
-      - 韩国kr1|cf
-      - 韩国kr2|cf
-      - 韩国kr3|cf
-      - 韩国kr4|cf
       - 新加坡sg1|cft|奈飞
       - 新加坡sg2|cft|奈飞
       - 新加坡sg3|cft|奈飞
@@ -150,14 +102,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡sg1|cf|奈飞
-      - 新加坡sg2|cf|奈飞
-      - 新加坡sg3|cf|奈飞
-      - 新加坡sg4|cf|奈飞
-      - 韩国kr1|cf
-      - 韩国kr2|cf
-      - 韩国kr3|cf
-      - 韩国kr4|cf
       - 新加坡sg1|cft|奈飞
       - 新加坡sg2|cft|奈飞
       - 新加坡sg3|cft|奈飞
@@ -188,14 +132,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡sg1|cf|奈飞
-      - 新加坡sg2|cf|奈飞
-      - 新加坡sg3|cf|奈飞
-      - 新加坡sg4|cf|奈飞
-      - 韩国kr1|cf
-      - 韩国kr2|cf
-      - 韩国kr3|cf
-      - 韩国kr4|cf
       - 新加坡sg1|cft|奈飞
       - 新加坡sg2|cft|奈飞
       - 新加坡sg3|cft|奈飞
